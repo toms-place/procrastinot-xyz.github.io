@@ -2136,7 +2136,7 @@ ul.icons {
   #cta select,
   #cta textarea {
     background-color: rgba(255, 255, 255, 0.075);
-    border-color: rgba(255, 255, 255, 0.25); }
+    border-color: rgb(255, 255, 255); }
     #cta input[type="text"]:focus,
     #cta input[type="password"]:focus,
     #cta input[type="email"]:focus,
