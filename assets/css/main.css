@@ -1732,6 +1732,17 @@ ul.actions {
   .icon > .label {
     display: none; }
 
+.icon:hover {
+  color: grey;
+}
+.fa {
+  text-decoration: none;
+}
+
+.fa:hover {
+  color: grey;
+}
+
 /* Icons */
 ul.icons {
   cursor: default;
