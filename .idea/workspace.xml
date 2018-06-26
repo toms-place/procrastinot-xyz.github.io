@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="109d922e-d564-4dc1-a458-21b13099fe27" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,13 +32,23 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+            <state relative-caret-position="309">
+              <caret line="186" column="120" lean-forward="false" selection-start-line="186" selection-start-column="120" selection-end-line="186" selection-end-column="120" />
               <folding>
                 <element signature="n#style#0;n#form#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="versioning.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/versioning.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-505">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,6 +103,8 @@
       <find>icon 1</find>
       <find>icon</find>
       <find>feedback</find>
+      <find>simp</find>
+      <find>simon strass</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -200,12 +211,12 @@
       <option name="presentableId" value="Default" />
       <updated>1530012462644</updated>
       <workItem from="1530012465272" duration="3171000" />
-      <workItem from="1530017466941" duration="2079000" />
+      <workItem from="1530017466941" duration="2462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5250000" />
+    <option name="totallyTimeSpent" value="5633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="794" extended-state="0" />
@@ -336,10 +347,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/versioning.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-505">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+        <state relative-caret-position="309">
+          <caret line="186" column="120" lean-forward="false" selection-start-line="186" selection-start-column="120" selection-end-line="186" selection-end-column="120" />
           <folding>
             <element signature="n#style#0;n#form#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
