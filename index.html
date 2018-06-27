@@ -27,16 +27,7 @@
 		<meta name="msapplication-TileColor" content="#603cba">
 		<meta name="theme-color" content="#ffffff">
 
-		<!-- start Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121417237-1"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-
-			gtag('config', 'UA-121417237-1');
-		</script>
-		<!-- end Global site tag (gtag.js) - Google Analytics -->
+		
 
 	</head>
 	<body class="is-preload">
@@ -169,7 +160,7 @@
 										<input type="text" name="b_7dc1e015d066d701740367fd5_5f2a4b1ba8" tabindex="-1" value="">
 									</div>
 									<div class="clear" style="width: 20%; margin: auto;">
-										<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="padding: 0 0.75rem">
+										<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" onclick="trackClick('mailchimp')" style="padding: 0 0.75rem">
 									</div>
 								</div>
 							</form>
@@ -247,6 +238,23 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+				/**
+				* Function that tracks a click on an outbound link in Analytics.
+				* This function takes a valid URL string as an argument, and uses that URL string
+				* as the event label. Setting the transport method to 'beacon' lets the hit be sent
+				* using 'navigator.sendBeacon' in browser that support it.
+				*/
+				var trackClick = function(clickLabel) {
+				  gtag('event', 'click', {
+					'event_category': 'click',
+					'event_label': clickLabel,
+					'transport_type': 'beacon',
+					'event_callback': function(){document.location = clickLabel;}
+				  });
+				}
+				</script>
 
 	</body>
 </html>
