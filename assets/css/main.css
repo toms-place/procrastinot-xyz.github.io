@@ -2916,7 +2916,7 @@ body.is-menu-visible #menu {
   }
 
 /* img hover */
-  .hover-shadow:active {
+  .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-left: -15%;
     width: 130%;
