@@ -153,7 +153,7 @@
 					<h2>Stay tuned and get informed when we start our business!</h2>
 					<!-- Begin MailChimp Signup Form -->
 						<div id="mc_embed_signup">
-							<form action="https://xyz.us18.list-manage.com/subscribe/post?u=7dc1e015d066d701740367fd5&amp;id=5f2a4b1ba8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate onsubmit="addEvent('newsletter','submit')">
+							<form action="https://xyz.us18.list-manage.com/subscribe/post?u=7dc1e015d066d701740367fd5&amp;id=5f2a4b1ba8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate onsubmit="addEvent('signup', 'newsletter', 'mailchimp')">
 								<div id="mc_embed_signup_scroll" style="display: flex; flex-direction: row; justify-content: space-between; width: 80%; margin: auto;">
 									<div class="mc-field-group" style="width: 65%; margin: auto;">
 										<label for="mce-EMAIL" style="display: none;">Email Address  <span class="asterisk">*</span></label>
@@ -251,8 +251,8 @@
 				/**
 				* Function that adds an event to google Analytics
 				*/
-				var addEvent = function(category, label) {
-				  gtag('event', 'event', {
+				var addEvent = function(event, category, label) {
+				  gtag('event', event, {
 					'event_category': category,
 					'event_label': label
 				  });
