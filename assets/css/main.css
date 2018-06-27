@@ -2861,20 +2861,19 @@ body.is-menu-visible #menu {
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible; }
 
+/* Business Model Canvas */
   .bContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
   }
-
   .bContainerSub {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: nowrap;
   }
-
   .bItem {
     flex-grow: 1;
     padding: 10px;
@@ -2883,18 +2882,14 @@ body.is-menu-visible #menu {
     background-color: rgba(0,209,209,0.25);
     box-shadow: 5px 5px 10px grey;
   }
-
   .bContainer h3 {
     text-decoration: underline;
     font-weight: bold;
   }
-
   .bContainer li {
     list-style: none;
     color: #888;
   }
-
-
   @media screen and (max-width: 600px) {
     .bContainer, 
     .bContainerSub {
